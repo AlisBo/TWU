@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+class ItriangBuilder {
+    void build(int side){
+        System.out.println("Here you go!");
+        int counter = 1;                    // layer number
+        while(counter <= side){
+            int space = side - counter;    //number of spaces on each side ot the triangle layer
+            for(int x = 1; x <= space; x++){
+                System.out.print(" ");
+            }
+            int ast = 2*(counter - 1) + 1;  //number of asterisks in this layer
+            for(int x = 1; x <= ast; x++){
+                System.out.print("*");
+            }
+            for(int x = 1; x <= space; x++){
+                System.out.print(" ");
+            }
+            System.out.println("");
+            counter = counter + 1;
+        }
+
+    }
+
+    int takeNumber(){
+        System.out.println("What size triangle would you like?");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        return n;
+    }
+
+}
+
