@@ -8,25 +8,25 @@ TO: Print one asterisk to the console.
 RUN: asteriskline.java . DEPENDENCIES: Linebuilder
 TO: Draw a horizontal line. Given a number n, print n asterisks on one line.
 Example when n=8:
-"\n ********"
+"********"
 
 *
 
 RUN: AsteriskColumn.java .  DEPENDENCIES: Columnbuilder
 TO: Draw a vertical line. Given a number n, print n lines, each with one asterisks
 Example when n=3:
-"*"
-"*"
-"*"
+"*
+*
+*"
 
 *
 
 RUN: RightTriangle.java .  DEPENDENCIES: RtriangleBuilder
 TO: Draw a right triangle. Given a number n, print n lines, each with one more asterisk than the last (i.e. one on the first line, two on the second,etc.) 
 Example when n=3:
-"*"
-"**"
-"***"
+"*
+**
+***"
 
 *
 
