@@ -8,7 +8,7 @@ TO: Print one asterisk to the console.
 RUN: asteriskline.java . DEPENDENCIES: Linebuilder
 TO: Draw a horizontal line. Given a number n, print n asterisks on one line.
 Example when n=8:
-"********"
+"\n ********"
 
 *
 
