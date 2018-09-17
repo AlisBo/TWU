@@ -33,7 +33,7 @@ Example when n=3:
 
 RUN: IsoTriangle.java .  DEPENDENCIES: ItriangBuilder
 TO: Draw Isosceles Triangle. Given a number n, print a centered triangle. Example for n=3:  
-&nbsp; &nbsp; &nbsp; &ast;  
+&nbsp; &nbsp; &ast;  
 &nbsp; &ast;&ast;&ast;  
 &ast;&ast;&ast;&ast;&ast;   
 
@@ -52,15 +52,14 @@ TO: Build Diamond. Given a number n, print a centered diamond. Example for n=3:
 ********************
 
 RUN: DiamondName.java .  DEPENDENCIES: NdiamondBuilder
-TO: Build Diamond with Name. Given a number n, print a centered diamond with your name in place of the middle line. Example for n=3:
+TO: Build Diamond with Name. Given a number n, print a centered diamond with your name in place of the middle line. Example for n=3:  
+&nbsp; &nbsp; &ast;  
+&nbsp; &ast; &ast; &ast;  
+Paula;  
+&nbsp; &ast; &ast; &ast;  
+&nbsp; &nbsp; &ast;  
 
-"  *"
-" ***"
-"Bill"
-" ***"
-"  *"
-
-*
+*******************
 
 RUN FizzBuzz.java . DEPENDENCIES: Fizzer.java, Checker.java
 TO: Fizz Buzz
