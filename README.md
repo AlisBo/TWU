@@ -15,17 +15,19 @@ Example when n=8:
 RUN: AsteriskColumn.java .  DEPENDENCIES: Columnbuilder
 TO: Draw a vertical line. Given a number n, print n lines, each with one asterisks
 Example when n=3:
-"* *
-*"
+&ast;
+&ast;
+&ast;
 
 ******************
 
 RUN: RightTriangle.java .  DEPENDENCIES: RtriangleBuilder
 TO: Draw a right triangle. Given a number n, print n lines, each with one more asterisk than the last (i.e. one on the first line, two on the second,etc.) 
 Example when n=3:
-"*
-**
-***"
+  &ast;
+ &ast;&ast;
+&ast;&ast;&ast;
+ 
 
 *************
 
