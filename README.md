@@ -33,22 +33,23 @@ Example when n=3:
 
 RUN: IsoTriangle.java .  DEPENDENCIES: ItriangBuilder
 TO: Draw Isosceles Triangle. Given a number n, print a centered triangle. Example for n=3:  
-  &ast;  
- &ast;&ast;&ast;  
+&nbsp; &nbsp; &nbsp; &ast;  
+&nbsp; &ast;&ast;&ast;  
 &ast;&ast;&ast;&ast;&ast;   
 
 *************************
 
 RUN: Diamond.java .  DEPENDENCIES: DiamondBuilder
-TO: Build Diamond. Given a number n, print a centered diamond. Example for n=3:
+TO: Build Diamond. Given a number n, print a centered diamond. Example for n=3:  
 
-"  *"
-" ***"
-"*****"
-" ***"
-"  *"
+&nbsp; &nbsp; &ast;  
+&nbsp; &ast; &ast; &ast;  
+&ast; &ast; &ast; &ast; &ast;  
+&nbsp; &ast; &ast; &ast;  
+&nbsp; &nbsp; &ast;  
 
-*
+
+********************
 
 RUN: DiamondName.java .  DEPENDENCIES: NdiamondBuilder
 TO: Build Diamond with Name. Given a number n, print a centered diamond with your name in place of the middle line. Example for n=3:
