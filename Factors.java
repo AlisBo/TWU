@@ -9,7 +9,7 @@ class Factors {
         return n;
     }
 
-     int [] factorise(int n) {
+     int [] generate(int n) {
         int [] factors = new int[n];
         System.out.print("Prime factors of " + n + ": \n");
         if (n==1) {
