@@ -4,6 +4,7 @@ Introductory Exercises for TWU
 RUN: asterisk.java  
 TO: Print one asterisk to the console.  
 
+******************
 
 RUN: asteriskline.java  
 DEPENDENCIES: Linebuilder  
@@ -61,7 +62,7 @@ DEPENDENCIES: NdiamondBuilder
 TO: Build Diamond with Name. Given a number n, print a centered diamond with your name in place of the middle line. Example for n=3:  
 &nbsp; &nbsp; &ast;  
 &nbsp; &ast; &ast; &ast;  
-Paula;  
+Paula  
 &nbsp; &ast; &ast; &ast;  
 &nbsp; &nbsp; &ast;  
 
