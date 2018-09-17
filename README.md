@@ -15,9 +15,9 @@ Example when n=8:
 RUN: AsteriskColumn.java .  DEPENDENCIES: Columnbuilder
 TO: Draw a vertical line. Given a number n, print n lines, each with one asterisks
 Example when n=3:
-&ast;
-&ast;
-&ast;
+&ast;  
+&ast;  
+&ast;  
 
 ******************
 
